@@ -56,11 +56,12 @@ _What is the minimal magnitude of changes that LMMs can perceive?_
 
 
 ## Introduction
-Introducing LMM-JND: a benchmark for exploring the perceptual boundaries of LMMs LLMs designed with test set contamination and objective evaluation in mind.
+Introducing LMM-JND: a concept to quantify the **Minimal Perceptible Distortion Level (1st JND)** and **Perceptual Redundancy** of LMMs. In this work, we focus three perspectives:
 
-- For technical perspective (T), we consider specific image attributes (_**Luminance**, **Contrast**_) that have high correlations of naturalness. _**Detail**, **Blur**_ and a common issue introduced by generative models _(**Artifacts**)_ are also considered.
-- For rationality perspective (R), we contribute 5 new factors: _**Existence**_, _**Color**_, _**Layout**_, _**Context**_, and _**Sensory Clarity**_ to evaluate the rationality of AI-generated images.
-- Please refer to our paper for more detailed explaination.
+- Low-level Distortion: We consider 7 typical low-level distortions, i.e., blur, brightness, color saturation, contrast change, JPEG compression, and banding artifacts, resulting from the signal acquisition, transmission, or quantization that deal with efficient visual coding.
+- Content-injection: Grounded in visual acuity tests and robustness benchmarks as well as the consideration of the input security for LMMs, we outline two different content perturbations, i.e., benign and malicious, that require qualitative and quantitative perception of semantic content, location, and visibility.
+- 3D FoV:</b> We build two virtual 3D environments using an optical simulation software, Ansys Speos, which enables us to achieve precise and controllable camera FoV adjustment. We mainly focus on the rotation and revolution of the camera and select 200 reference viewpoints in space. Taking 1cm and 1◦ as the minimum step increments, we generate 10k stimuli with varying viewing distances and angles, including panning, zooming in, horizontal flipping, and pitch transformations.
+- Please refer to our paper for more details.
 
 
 ## Dataset Download
