@@ -61,7 +61,7 @@ Introducing LMM-JND: a concept to quantify the **Minimal Perceptible Distortion 
 - Low-level Distortion: We consider 7 typical low-level distortions, i.e., blur, brightness, color saturation, contrast change, JPEG compression, and banding artifacts, resulting from the signal acquisition, transmission, or quantization that deal with efficient visual coding.
 - Content-injection: We outline two different content perturbations, i.e., benign and malicious. We treat benign injection as a spot-the-difference task. For this purpose, an image editing dataset, [MagicBrush](https://github.com/OSU-NLP-Group/MagicBrush), and a visual difference dataset collected by [frame sampling](https://github.com/harsh19/spot-the-diff) are chosen as the evaluation set. Besides, we use a scalable mask with variable size and position and two types of transparency-controlled watermarks (i.e., QR code and text) to achieve malicious content injection.
 - 3D FoV:</b> We build two virtual 3D environments using [Ansys Speos](https://www.ansys.com/products/optics/ansys-speos) to achieve precise and controllable camera FoV adjustment. We focus on the rotation and revolution of the camera and generate 10k stimuli with varying viewing distances and angles, including panning, zooming in, horizontal flipping, and pitch transformations.
-- Please refer to our paper for more details.
+
 
 ## Dataset Download
 To be released!
