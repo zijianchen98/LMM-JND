@@ -5,7 +5,7 @@
     <a href="https://github.com/zijianchen98/LMM-JND"><img src="https://img.shields.io/github/stars/zijianchen98/LMM-JND"/></a>
     <a href="http://arxiv.org/abs/2507.00490"><img src="https://img.shields.io/badge/Arxiv-2507:00490-red"/></a>
     <a href="https://github.com/zijianchen98/LMM-JND"><img src="https://img.shields.io/badge/Dataset-TobeReleased-green"></a>
-    <a href="https://github.com/zijianchen98/LMM-JND"><img src="https://img.shields.io/badge/Awesome-VPA-JND-orange"/></a>
+    <a href="https://github.com/zijianchen98/LMM-JND"><img src="https://img.shields.io/badge/Awesome-VPA--JND-orange"/></a>
 </div>
 
 <h1>Just Noticeable Difference for Large Multimodal Models</h1>
