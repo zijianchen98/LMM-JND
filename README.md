@@ -24,11 +24,13 @@ _What is the minimal magnitude of changes that LMMs can perceive?_
 </div>
 
 <div>
-  <sup>1</sup>Shanghai Jiao Tong University, <sup>2</sup>Shanghai AI Laboratory, <sup>3</sup>East China Normal University, <sup>4</sup>Nanyang Technological University
+  <sup>1</sup>Shanghai Jiao Tong University, <sup>2</sup>Shanghai AI Laboratory, 
+  
+  <sup>3</sup>East China Normal University, <sup>4</sup>Nanyang Technological University
 </div>   
 
 <div>
-<sup>*</sup>Corresponding authors 
+<sup>*</sup>Corresponding author
    </div>
 
 <a href="https://arxiv.org/pdf/2507.00490"><strong>Arxiv</strong></a> / <a href="https://zijianchen98.github.io/LMM-JND"><strong>Project</strong></a>
@@ -38,7 +40,7 @@ _What is the minimal magnitude of changes that LMMs can perceive?_
 
 </div>
 
-> Abstract: Just noticeable difference (JND), the minimum change that the human visual system (HVS) can perceive, has been studied for decades. Although recent work has extended this line of research into machine vision, there has been a scarcity of studies systematically exploring its **perceptual boundaries** across multiple tasks and stimulus types, particularly in the current era of rapidly advancing large multimodal models (LMMs), where studying the multifaceted capabilities of models has become a mainstream focus. Moreover, the perceptual defects of LMMs are not investigated thoroughly, resulting in potential security issues and suboptimal response efficiency. In this paper, we take an initial attempt and demonstrate that there exist significant visual blind spots in current LMMs. To systemically quantify this characteristic, we propose a new concept, **LMM-JND**, together with its determination pipeline. Targeting uncovering the behavior commonalities in HVS-aligned visual perception tasks, we delve into several LMM families and construct a large-scale dataset, named **VPA-JND**, which contains 21.5k reference images with over **489k** stimuli across 12 distortion types, to facilitate LMM-JND studies. VPA-JND exposes areas where state-of-the-art LMMs, including GPT-4o and the InternVL2.5 series, struggle with basic comparison queries and fall significantly short of human-level visual performance. We further explore the effects of vision and language backbones and find a notable correlation between their design philosophy that may instruct the future refinement of LMMs for their visual acuity. Together, our research underscores the significance of LMM-JND as a unique perspective for studying LMMs, and predictable LMM-JND is crucial for security concerns.
+> Abstract: Just noticeable difference (JND), the minimum change that the human visual system (HVS) can perceive, has been studied for decades. Although recent work has extended this line of research into machine vision, there has been a scarcity of studies systematically exploring its **perceptual boundaries** across multiple tasks and stimulus types, particularly in the current era of rapidly advancing large multimodal models (LMMs), where studying the multifaceted capabilities of models has become a mainstream focus. In this paper, we propose a new concept, **LMM-JND**, together with its determination pipeline. Targeting uncovering the behavior commonalities in HVS-aligned visual perception tasks, we construct a large-scale dataset, named **VPA-JND**, which contains 21.5k reference images with over **489k** stimuli across 12 distortion types, to facilitate LMM-JND studies. VPA-JND exposes areas where state-of-the-art LMMs, including GPT-4o and the InternVL2.5 series, struggle with basic comparison queries and fall significantly short of human-level visual performance. We further explore the effects of vision and language backbones and find a notable correlation between their design philosophy that may instruct the future refinement of LMMs for their visual acuity. Together, our research underscores the significance of LMM-JND as a unique perspective for studying LMMs, and predictable LMM-JND is crucial for security concerns.
 
 
 ## Table of Contents
